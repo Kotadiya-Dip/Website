@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h2 style="text-align: center;">This is new  launched car</h2>
+<style>
+    #r1{background-color: white;height:33%;width:33%;padding-top: 1%;padding-left: 1%;margin-right: 3%;float: left;}
+    #r1c1{background-color: white;height:33%;width:33%;padding-top: 1%;padding-left: 1%;margin-bottom: 3%;float:left;}
+    #r1c2{background-color: white;height:33%;width:33%;padding-top: 1%;padding-left: 1%;margin-bottom: 3%;float: left;}
+    #r1c3{background-color: white;height:33%;width: 33%; padding-top: 1%;padding-left: 1%;margin-bottom: 3%;float:left;}
+    #r1c4{background-color: white;height:33%;width:33%;padding-top: 1%;padding-left: 1%;margin-right: 1%;float: left;}
+    #r1c5{background-color: white;height:33%;width:33%;padding-top: 1px; padding-left:1%; margin-left: 30%;}
+.car{width: 100%;}
+
+*{font-size: 20px;}
+    
+
+</style>    
+   
+</head>
+
+<body>
+    <section>
+        <img class="mySlides"   src="https://prog-ace-cdn.azureedge.net/-/media/project/mahindra/dotcom/mahindra/io-courasal/new-web.jpg?rev=40571976ab854b8ba3bf668d6fd0950f&extension=webp" style="height: auto;width: 100%;">
+        <img class="mySlides" src="https://prog-ace-cdn.azureedge.net/-/media/project/mahindra/dotcom/mahindra/amc-hero/metaverse-xuv400/xuv400_home-page_desktop_1920x829px.jpg?rev=ae031f499ac74be4b96d1c005b98129a&extension=webp" style="height: auto;width: 100%;">
+        <img class="mySlides" src="https://prog-ace-cdn.azureedge.net/-/media/project/mahindra/dotcom/mahindra/amc-hero/xuv400-we-fun-we-fast/xuv400_amc_desktop_1920x841_mobile.jpg?rev=de7b15e1be66451ea1c1109b36252a2c&extension=webp"style="height:auto;width:100%; ">
+        <img class="mySlides" src="https://prog-ace-cdn.azureedge.net/-/media/project/mahindra/dotcom/mahindra/all-vehicles/suv/teaser-banner/mahindra-auto_teaser-banner_1920x829px.jpg?rev=b412503815dd4a8596681a3de2d22c2e&extension=webp"style="height:auto;width:100%; ">
+        <img class="mySlides" src="https://prog-ace-cdn.azureedge.net/-/media/project/mahindra/dotcom/mahindra/amc-hero/thar-rwd-amc/amcpagebannerwaterfall_1920x829-right.jpg?rev=cb2fa0b61b5f4c40bea69e6693aeebbd&extension=webp" style="height: auto;width: 100%;">
+    </section>
+    <div class="car">
+<div id="r1" >
+    <img  src="https://prog-ace-cdn.azureedge.net/-/media/project/mahindra/dotcom/mahindra/all-vehicles/suv/scorpio-n/291x158.png?rev=b0b8dc01ed664f84a651310483ebb1c0&extension=webp" style="height: auto;width: 50%;"><br><b>This is new Bolero neo
+    </b></div>
+<div id="r1c1">
+    <img src="https://prog-ace-cdn.azureedge.net/-/media/project/mahindra/dotcom/mahindra/all-vehicles/suv/xuv700/291-2x158-2.png?rev=e129d572aed249b6ba268efeb1517de0&extension=webp"style="height: auto;width: 50%;"><br><b>This is new Bolero neo
+    </b>
+</div>
+<div id="r1c2">
+    <img src="https://prog-ace-cdn.azureedge.net/-/media/project/mahindra/dotcom/mahindra/all-vehicles/suv/scorpio/classic/291x158-1.png?rev=0dd2605c605f48c2872f5e5888498df2&extension=webp" style="height: auto;width: 50%;"><br><b>This is new Bolero neo
+    </b>
+</div>
+<div id="r1c3">
+    <img src="https://prog-ace-cdn.azureedge.net/-/media/project/mahindra/dotcom/mahindra/all-vehicles/suv/marazzo/mahindra-marazzo-291x158.png?rev=9f2b34d6c3a940d8bbbb787497251d3f&extension=webp" style="height:auto;width:50%;"><br><b>This is new Bolero neo
+    </b>
+</div>
+<div id="r1c4">
+    <img src="https://prog-ace-cdn.azureedge.net/-/media/project/mahindra/dotcom/mahindra/all-vehicles/suv/kuv100nxt/291-x-158-mahindra-kuv100.png?rev=375428116c3d46d39b076631fb2e5f54&extension=webp" style="height: auto;width: 50%;"><br><b>This is new Bolero neo
+    </b>
+</div>
+<div id="r1c5">
+    <img src="https://prog-ace-cdn.azureedge.net/-/media/project/mahindra/dotcom/mahindra/all-vehicles/suv/bolero-neo/bolero-neo_amc_navigation-front_desktop_235x127px.png?rev=16faa0fffc164f7e82c3ec8c45203010&extension=webp"style="height: auto;width: 50%;" ><br><b>This is new Bolero neo
+    </b>
+</div>
+</div>
+<script>
+        // Automatic Slideshow - change image every 4  seconds
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}
+          x[myIndex-1].style.display = "block";
+          setTimeout(carousel, 3000);
+        }
+        </script>
+</body>
+</html>
